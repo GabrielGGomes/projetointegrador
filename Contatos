@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="has-background-color">
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/Contatos">Contatos</a>
+            <a href="/Sobre">Sobre</a>
+            <a href="/Projeto">Projeto</a>
+        </nav>
+    </header>
+    <main>
+        
+<h1>CONTRABANDO DE ESPÉCIES SILVESTRES</h1>
+<p>Ameaça à Biodiversidade Paranaense.</p>
+<a href="/Contatos" class="button">Contatos</a>
+<a href="/Sobre" class="button">Sobre</a>
+<a href="/Projeto" class="button">Projeto</a>
+<div class="contact-grid">
+    <div class="contact">
+        <h1>Gabriel</h1>
+        <p>Celular: (42)988277747</p>
+        <p>Email: gabrielgarciagomes15@gmail.com</p>
+    </div>
+    <div class="contact">
+        <h1>Jessica</h1>
+        <p>Celular: (42)988277747</p>
+        <p>Email: gabrielgarciagomes15@gmail.com</p>
+    </div>
+    <div class="contact">
+        <h1>Leonardo</h1>
+        <p>Celular: (42)988277747</p>
+        <p>Email: gabrielgarciagomes15@gmail.com</p>
+    </div>
+    <div class="contact">
+        <h1>Tamara</h1>
+        <p>Celular: (42)988277747</p>
+        <p>Email: gabrielgarciagomes15@gmail.com</p>
+    </div>
+    <div class="contact">
+        <h1>Tatiane</h1>
+        <p>Celular: (42)988277747</p>
+        <p>Email: gabrielgarciagomes15@gmail.com</p>
+    </div>
+    <div class="contact">
+        <h1>Vitor</h1>
+        <p>Celular: (42)988277747</p>
+        <p>Email: gabrielgarciagomes15@gmail.com</p>
+    </div>
+</div>
+<script>
+    // Verifica se a página atual é a página de contatos
+    if (window.location.pathname.includes("/Contatos")) {
+        // Se for, redireciona para a página inicial ao clicar no botão "Contatos"
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.contact-button').addEventListener('click', function() {
+                window.location.href = "/Inicio";
+            });
+        });
+    }
+</script>
+
+    </main>
+</body>
+</html>
